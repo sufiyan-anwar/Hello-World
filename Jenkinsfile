@@ -11,5 +11,10 @@ pipeline {
                 bat "mvn test"
             }
         }
+        stage('Release') {
+            steps {
+                bat './jenkins/scripts/deliver.sh'
+            }
+        }
     }
 }
