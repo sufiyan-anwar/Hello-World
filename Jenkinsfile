@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                bat './jenkins/scripts/deliver.sh'
+                echo "Release command"
             }
         }
     }
