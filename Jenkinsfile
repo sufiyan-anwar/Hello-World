@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                bat "xcopy /E ${ITEM_ROOTDIR}/builds "${DESKTOP}/Deployed Server/""
+                bat "xcopy /E ${ITEM_ROOTDIR}/builds "${DESKTOP}\Deployed Server\""
             }
         }
     }
