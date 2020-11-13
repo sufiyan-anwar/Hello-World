@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                bat 'xcopy /E "C:\\Users\\Administrator\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\Hello World" "C:\\Users\\sufiyan.anwar\\Desktop\\Deployed Server\\"'
+                bat 'xcopy /E "C:\\Users\\Administrator\\AppData\\Local\\Jenkins\\.jenkins\\workspace\\Hello World WebHook" "C:\\Users\\sufiyan.anwar\\Desktop\\Deployed Server\\"'
             }
         }
     }
